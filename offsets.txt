@@ -1,0 +1,58 @@
+[
+    {
+        "area": 640000, 
+        "filename": "block 3", 
+        "width": 800, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 6
+    }, 
+    {
+        "area": 262144, 
+        "filename": "block 2", 
+        "width": 512, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 5
+    }, 
+    {
+        "area": 228085, 
+        "filename": "outlines", 
+        "width": 377, 
+        "x": 182, 
+        "y": 122, 
+        "z_order": 0
+    }, 
+    {
+        "area": 103544, 
+        "filename": "belly", 
+        "width": 344, 
+        "x": 200, 
+        "y": 314, 
+        "z_order": 2
+    }, 
+    {
+        "area": 65536, 
+        "filename": "block 1", 
+        "width": 256, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 4
+    }, 
+    {
+        "area": 48000, 
+        "filename": "head", 
+        "width": 240, 
+        "x": 252, 
+        "y": 137, 
+        "z_order": 1
+    }, 
+    {
+        "area": 41667, 
+        "filename": "feet", 
+        "width": 323, 
+        "x": 218, 
+        "y": 578, 
+        "z_order": 3
+    }
+]
