@@ -1,58 +1,434 @@
 [
     {
-        "area": 640000, 
-        "filename": "block 3", 
-        "width": 800, 
+        "area": 1687500, 
+        "filename": "Land", 
+        "width": 1500, 
         "x": 0, 
         "y": 0, 
-        "z_order": 6
+        "z_order": 52
     }, 
     {
-        "area": 262144, 
-        "filename": "block 2", 
-        "width": 512, 
+        "area": 1687500, 
+        "filename": "Ocean", 
+        "width": 1500, 
         "x": 0, 
         "y": 0, 
-        "z_order": 5
+        "z_order": 53
     }, 
     {
-        "area": 228085, 
-        "filename": "outlines", 
-        "width": 377, 
-        "x": 182, 
-        "y": 122, 
+        "area": 994848, 
+        "filename": "Lakes", 
+        "width": 1032, 
+        "x": 468, 
+        "y": 91, 
         "z_order": 0
     }, 
     {
-        "area": 103544, 
-        "filename": "belly", 
-        "width": 344, 
-        "x": 200, 
-        "y": 314, 
-        "z_order": 2
+        "area": 524849, 
+        "filename": "Russia", 
+        "width": 611, 
+        "x": 889, 
+        "y": 0, 
+        "z_order": 41
     }, 
     {
-        "area": 65536, 
-        "filename": "block 1", 
-        "width": 256, 
-        "x": 0, 
-        "y": 0, 
+        "area": 263774, 
+        "filename": "Norway", 
+        "width": 581, 
+        "x": 474, 
+        "y": 27, 
+        "z_order": 49
+    }, 
+    {
+        "area": 94214, 
+        "filename": "Spain", 
+        "width": 326, 
+        "x": 344, 
+        "y": 808, 
+        "z_order": 46
+    }, 
+    {
+        "area": 82080, 
+        "filename": "Sweden", 
+        "width": 190, 
+        "x": 766, 
+        "y": 118, 
+        "z_order": 47
+    }, 
+    {
+        "area": 78988, 
+        "filename": "Portugal", 
+        "width": 364, 
+        "x": 154, 
+        "y": 840, 
+        "z_order": 39
+    }, 
+    {
+        "area": 66825, 
+        "filename": "Great Britain", 
+        "width": 225, 
+        "x": 408, 
+        "y": 399, 
+        "z_order": 21
+    }, 
+    {
+        "area": 62125, 
+        "filename": "Finland", 
+        "width": 175, 
+        "x": 888, 
+        "y": 75, 
+        "z_order": 16
+    }, 
+    {
+        "area": 46288, 
+        "filename": "Ukraine", 
+        "width": 263, 
+        "x": 924, 
+        "y": 621, 
+        "z_order": 51
+    }, 
+    {
+        "area": 43452, 
+        "filename": "France", 
+        "width": 213, 
+        "x": 532, 
+        "y": 652, 
+        "z_order": 17
+    }, 
+    {
+        "area": 38976, 
+        "filename": "Italy", 
+        "width": 174, 
+        "x": 701, 
+        "y": 740, 
+        "z_order": 26
+    }, 
+    {
+        "area": 32409, 
+        "filename": "Turkey", 
+        "width": 277, 
+        "x": 977, 
+        "y": 841, 
+        "z_order": 50
+    }, 
+    {
+        "area": 23940, 
+        "filename": "Germany", 
+        "width": 133, 
+        "x": 691, 
+        "y": 557, 
+        "z_order": 19
+    }, 
+    {
+        "area": 19865, 
+        "filename": "Poland", 
+        "width": 145, 
+        "x": 810, 
+        "y": 562, 
+        "z_order": 38
+    }, 
+    {
+        "area": 17600, 
+        "filename": "Iceland", 
+        "width": 160, 
+        "x": 252, 
+        "y": 212, 
+        "z_order": 24
+    }, 
+    {
+        "area": 16819, 
+        "filename": "Belarus", 
+        "width": 139, 
+        "x": 940, 
+        "y": 529, 
+        "z_order": 6
+    }, 
+    {
+        "area": 16000, 
+        "filename": "Greece", 
+        "width": 125, 
+        "x": 889, 
+        "y": 848, 
+        "z_order": 22
+    }, 
+    {
+        "area": 13289, 
+        "filename": "Romania", 
+        "width": 137, 
+        "x": 898, 
+        "y": 715, 
+        "z_order": 40
+    }, 
+    {
+        "area": 8549, 
+        "filename": "Denmark", 
+        "width": 103, 
+        "x": 723, 
+        "y": 487, 
+        "z_order": 13
+    }, 
+    {
+        "area": 7310, 
+        "filename": "Croatia", 
+        "width": 86, 
+        "x": 801, 
+        "y": 751, 
+        "z_order": 10
+    }, 
+    {
+        "area": 6720, 
+        "filename": "Latvia", 
+        "width": 105, 
+        "x": 909, 
+        "y": 478, 
+        "z_order": 28
+    }, 
+    {
+        "area": 6402, 
+        "filename": "Ireland", 
+        "width": 66, 
+        "x": 455, 
+        "y": 548, 
+        "z_order": 25
+    }, 
+    {
+        "area": 6327, 
+        "filename": "Austria", 
+        "width": 111, 
+        "x": 743, 
+        "y": 699, 
         "z_order": 4
     }, 
     {
-        "area": 48000, 
-        "filename": "head", 
-        "width": 240, 
-        "x": 252, 
-        "y": 137, 
+        "area": 6039, 
+        "filename": "Hungary", 
+        "width": 99, 
+        "x": 838, 
+        "y": 708, 
+        "z_order": 23
+    }, 
+    {
+        "area": 5762, 
+        "filename": "Azerbaijan", 
+        "width": 86, 
+        "x": 1252, 
+        "y": 845, 
+        "z_order": 5
+    }, 
+    {
+        "area": 5673, 
+        "filename": "Estonia", 
+        "width": 93, 
+        "x": 921, 
+        "y": 433, 
+        "z_order": 14
+    }, 
+    {
+        "area": 5590, 
+        "filename": "Lithuania", 
+        "width": 86, 
+        "x": 908, 
+        "y": 521, 
+        "z_order": 30
+    }, 
+    {
+        "area": 5488, 
+        "filename": "Czech Republic", 
+        "width": 98, 
+        "x": 780, 
+        "y": 653, 
+        "z_order": 12
+    }, 
+    {
+        "area": 5369, 
+        "filename": "Bulgaris", 
+        "width": 91, 
+        "x": 929, 
+        "y": 799, 
+        "z_order": 9
+    }, 
+    {
+        "area": 5307, 
+        "filename": "Serbia", 
+        "width": 61, 
+        "x": 878, 
+        "y": 759, 
+        "z_order": 42
+    }, 
+    {
+        "area": 4900, 
+        "filename": "Georgia", 
+        "width": 98, 
+        "x": 1183, 
+        "y": 812, 
+        "z_order": 18
+    }, 
+    {
+        "area": 3752, 
+        "filename": "Netherlands", 
+        "width": 56, 
+        "x": 654, 
+        "y": 594, 
+        "z_order": 37
+    }, 
+    {
+        "area": 3618, 
+        "filename": "Moldova", 
+        "width": 54, 
+        "x": 989, 
+        "y": 709, 
+        "z_order": 34
+    }, 
+    {
+        "area": 3403, 
+        "filename": "Slovakia", 
+        "width": 83, 
+        "x": 849, 
+        "y": 686, 
+        "z_order": 43
+    }, 
+    {
+        "area": 3135, 
+        "filename": "Bosnia & Herzagovina", 
+        "width": 57, 
+        "x": 833, 
+        "y": 777, 
+        "z_order": 8
+    }, 
+    {
+        "area": 2772, 
+        "filename": "Switzerland", 
+        "width": 66, 
+        "x": 692, 
+        "y": 725, 
+        "z_order": 48
+    }, 
+    {
+        "area": 2576, 
+        "filename": "Belgium", 
+        "width": 56, 
+        "x": 642, 
+        "y": 643, 
+        "z_order": 7
+    }, 
+    {
+        "area": 2162, 
+        "filename": "Armenia", 
+        "width": 46, 
+        "x": 1233, 
+        "y": 856, 
+        "z_order": 3
+    }, 
+    {
+        "area": 1508, 
+        "filename": "Albania", 
+        "width": 26, 
+        "x": 884, 
+        "y": 830, 
         "z_order": 1
     }, 
     {
-        "area": 41667, 
-        "filename": "feet", 
-        "width": 323, 
-        "x": 218, 
-        "y": 578, 
-        "z_order": 3
+        "area": 1426, 
+        "filename": "Slovenia", 
+        "width": 46, 
+        "x": 799, 
+        "y": 745, 
+        "z_order": 44
+    }, 
+    {
+        "area": 1140, 
+        "filename": "Macedonia", 
+        "width": 38, 
+        "x": 901, 
+        "y": 836, 
+        "z_order": 32
+    }, 
+    {
+        "area": 986, 
+        "filename": "Montenegro", 
+        "width": 29, 
+        "x": 872, 
+        "y": 812, 
+        "z_order": 36
+    }, 
+    {
+        "area": 840, 
+        "filename": "Kosovo", 
+        "width": 28, 
+        "x": 894, 
+        "y": 817, 
+        "z_order": 27
+    }, 
+    {
+        "area": 714, 
+        "filename": "Cyprus", 
+        "width": 34, 
+        "x": 1072, 
+        "y": 959, 
+        "z_order": 11
+    }, 
+    {
+        "area": 672, 
+        "filename": "Faroe Islands", 
+        "width": 21, 
+        "x": 496, 
+        "y": 352, 
+        "z_order": 15
+    }, 
+    {
+        "area": 204, 
+        "filename": "Luxembourg", 
+        "width": 12, 
+        "x": 689, 
+        "y": 673, 
+        "z_order": 31
+    }, 
+    {
+        "area": 42, 
+        "filename": "Lichtenstein", 
+        "width": 6, 
+        "x": 741, 
+        "y": 735, 
+        "z_order": 29
+    }, 
+    {
+        "area": 36, 
+        "filename": "Malta", 
+        "width": 6, 
+        "x": 811, 
+        "y": 953, 
+        "z_order": 33
+    }, 
+    {
+        "area": 30, 
+        "filename": "Andorra", 
+        "width": 6, 
+        "x": 626, 
+        "y": 830, 
+        "z_order": 2
+    }, 
+    {
+        "area": 16, 
+        "filename": "Monaco", 
+        "width": 4, 
+        "x": 711, 
+        "y": 807, 
+        "z_order": 35
+    }, 
+    {
+        "area": 6, 
+        "filename": "San Marino", 
+        "width": 2, 
+        "x": 785, 
+        "y": 804, 
+        "z_order": 45
+    }, 
+    {
+        "area": 1, 
+        "filename": "Gibraltar", 
+        "width": 1, 
+        "x": 529, 
+        "y": 951, 
+        "z_order": 20
     }
 ]

@@ -18,7 +18,7 @@ def parse_and_save(psd,textfile):
 
 	images = []
 	layers = []
-	atlas = Image.new("RGBA",(1000,2000),'hotpink')
+	atlas = Image.new("RGBA",(3000,3000),'hotpink')
 	taken_pixels = [0] * atlas.width * atlas.height
 	
 	paste_posx = 0
