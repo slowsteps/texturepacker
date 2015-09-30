@@ -18,7 +18,7 @@ def parse_and_save(psd,textfile):
 
 	images = []
 	layers = []
-	atlas = Image.new("RGBA",(3000,3000),'hotpink')
+	atlas = Image.new("RGBA",(1000,2000),'hotpink')
 	taken_pixels = [0] * atlas.width * atlas.height
 	
 	paste_posx = 0
@@ -38,7 +38,8 @@ def parse_and_save(psd,textfile):
 		empty_pixel_number = find_empty_pixel(somelayer['width'])
 		empty_x = int(empty_pixel_number % atlas.width)
 		empty_y = int(math.ceil(empty_pixel_number / atlas.width))
-		print ( "pasting " + somelayer['filename'] + ' at x=' + str(empty_x) + " y=" + str(empty_y))
+		somelayer["atlasx"]=empty_x
+		somelayer["atlasy"]=empty_y
 		atlas.paste(images[index],(empty_x,empty_y))
 		mark_taken(empty_pixel_number,images[index].width,images[index].height)
 

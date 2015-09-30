@@ -1,0 +1,56 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<h1>Atlas</h1>
+
+
+
+<img  width="50px">
+
+<style>
+
+#cv {
+
+border: 1px solid black;
+
+}
+
+</style>
+
+
+<canvas id="cv" width="800" height="600"></canvas>
+
+<script>
+
+    $.getJSON( "offsets.txt", OnJsonReceived);
+
+    var img;
+
+    function OnJsonReceived(data)
+    {
+        
+
+        var layer = data[3];
+
+        img = new Image;
+        img.onload = function(){  
+          //ctx.drawImage(img,layer.atlasx,layer.atlasy,layer.width,layer.height,layer.x,layer.y); 
+          //ctx.drawImage(img,90,130,50,60,10,10,50,60); 
+        };
+        img.src = "atlas.png";
+
+    }
+
+    function CopyPixels()
+    {
+        console.log("copy pixels");
+        var myCanvas = document.getElementById('cv');
+        var ctx = myCanvas.getContext('2d');
+        ctx.drawImage(img,90,130,50,60,10,10,50,60); 
+    }
+
+
+
+
+</script>
