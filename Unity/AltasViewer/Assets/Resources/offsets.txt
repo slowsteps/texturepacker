@@ -1,0 +1,93 @@
+[
+    {
+        "area": 640000, 
+        "atlasx": 0, 
+        "atlasy": 0, 
+        "filename": "block 3", 
+        "height": 800, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 800, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 6
+    }, 
+    {
+        "area": 262144, 
+        "atlasx": 0, 
+        "atlasy": 800, 
+        "filename": "block 2", 
+        "height": 512, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 512, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 5
+    }, 
+    {
+        "area": 228085, 
+        "atlasx": 512, 
+        "atlasy": 800, 
+        "filename": "outlines", 
+        "height": 605, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 377, 
+        "x": 182, 
+        "y": 122, 
+        "z_order": 0
+    }, 
+    {
+        "area": 103544, 
+        "atlasx": 0, 
+        "atlasy": 1312, 
+        "filename": "belly", 
+        "height": 301, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 344, 
+        "x": 200, 
+        "y": 314, 
+        "z_order": 2
+    }, 
+    {
+        "area": 65536, 
+        "atlasx": 344, 
+        "atlasy": 1405, 
+        "filename": "block 1", 
+        "height": 256, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 256, 
+        "x": 0, 
+        "y": 0, 
+        "z_order": 4
+    }, 
+    {
+        "area": 48000, 
+        "atlasx": 600, 
+        "atlasy": 1405, 
+        "filename": "head", 
+        "height": 200, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 240, 
+        "x": 252, 
+        "y": 137, 
+        "z_order": 1
+    }, 
+    {
+        "area": 41667, 
+        "atlasx": 600, 
+        "atlasy": 1605, 
+        "filename": "feet", 
+        "height": 129, 
+        "psdheight": 800, 
+        "psdwidth": 800, 
+        "width": 323, 
+        "x": 218, 
+        "y": 578, 
+        "z_order": 3
+    }
+]

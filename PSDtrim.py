@@ -27,7 +27,7 @@ def parse_and_save(psd,textfile):
 	#create a list of image object and a list of meta data voor the images, sort from large to small
 	for layer in psd.layers:
 		images.append(layer.as_PIL())
-		layers.append({"z_order":z_order,"area":layer.bbox.width * layer.bbox.height, "filename":layer.name,"x":layer.bbox.x1,"y":layer.bbox.y1,"width":layer.bbox.width})
+		layers.append({"psdwidth":psd.header.width, "psdheight":psd.header.height, "z_order":z_order,"area":layer.bbox.width * layer.bbox.height, "filename":layer.name,"x":layer.bbox.x1,"y":layer.bbox.y1,"width":layer.bbox.width,"height":layer.bbox.height})
 		z_order += 1	
 	layers = sorted(layers, key=lambda k: k['area'],reverse=True) 
 
